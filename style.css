@@ -1,0 +1,338 @@
+.top_nav {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.top_nav li a  {
+  display: inline-block;
+  color: black;
+  text-align: left;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+div.top_nav li a {
+float: left;
+margin-left: 40px;
+margin-right: auto;
+padding: 10px 40px;
+}
+
+
+
+/* style for 'Contact Us' and 'Login' nav elements. */
+.nav2 {
+  font-size: 0.75em;
+  float: right;
+  list-style: none;
+}
+
+div.top_nav li a:hover {
+  background-color: rgba(117, 117, 117, 0.315);
+}
+
+hr{
+  height: 2px;
+  background: black;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h1{
+margin-top: 50px;
+letter-spacing: 2.5px;
+text-align: center;
+}
+
+/* style for company description statement 
+   alignment is not fixed for some reason;
+   resizing the screen will cause the words to move
+   from the center - FIXED*/
+p1{
+float: left;
+padding-left: 25%;
+padding-right: 25%;
+padding-bottom: 40px;
+font-size: 1.5em;
+letter-spacing: 2px;
+text-align: center;
+line-height: 40px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center2{
+  
+  float: center;
+  vertical-align: center;
+  margin-left: 7%;
+  margin-right:7%;
+}
+
+/* Sign Up button */
+div1 {
+  width: 200px;
+  padding: 10px;
+  border: 2px solid black;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+/* Sign Up button */
+div1{
+display: block;  
+float: center;
+margin-left: auto;
+margin-right: auto;
+width: 15%;
+}
+
+div1:hover{
+  background-color: rgba(117, 117, 117, 0.315);
+  border: 2px solid rgba(3, 3, 3, 0.61);
+}
+
+/* style for images on 'Resources' page. */
+figure.img {
+  display: block;
+  text-align: center;
+  font-size: 2.0em;
+  font-weight: bold;
+}
+/* style for captions below images in 'Resources' page. */
+.caption {
+  display: block;
+}
+
+figure.img figcaption.learn {
+  display: block;
+  margin-left: 42%;
+  margin-right: 42%;
+  border: 2px solid black;
+  margin-top: 100px;
+}
+.learn:hover{
+  background-color: rgba(117, 117, 117, 0.315);
+}
+
+/* alignment for captions and images in 'Resources' page. */
+div2 {
+  margin-left: 40px;
+}
+
+/*style for Log In form and button on 'Login' page.*/
+.container {
+  text-align: center;
+ /* border: 2px solid #ccc; */
+  padding-bottom: 75px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+/* style for address in footer*/
+p2{
+display: block;
+font-size: 0.75em;
+letter-spacing: 2px;
+text-align: center;
+line-height: 40px;
+padding-left: 220px;
+}
+
+#myBtn {
+  position: fixed;
+  bottom: 20px; 
+  left: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none;  
+  cursor: pointer; 
+}
+
+#myBtn:hover {
+  background-color: rgba(117, 117, 117, 0.315);
+}
+
+
+/* style for footer nav bar as seen in mock-up */
+div.nav3 {
+  padding-top: 100px;
+  width: 100px;
+  list-style: none;
+}
+
+div.nav3 li a{
+  float: left;
+  display: block;
+  padding-left: 170px;
+  padding-top: 18px;
+  text-decoration: none;
+}
+
+
+/* style for all list elements in footer*/
+span nav li a{
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+/* style for 'Contact Us' and 'Login' footer elements */
+div.bottom_nav {
+  list-style: none;
+  text-align: left;
+}
+
+div.bottom_nav > li:first-of-type{
+  padding-top: 145px;
+  display: block;
+  text-align: left;
+}
+
+div.bottom_nav > li:last-of-type{
+  display: block;
+  text-align: left;
+}
+
+div.bottom_nav li a {
+  padding-left: 170px;
+  font-size: 1.0em;
+}
+
+/* style for footer logo image*/
+div.footer_img img{
+  display: flex;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  float: right;
+  top: -250px;
+  right: 50px;
+}
+
+/* style for 'Pages' header in footer */
+h7 {
+  display: block;
+  text-decoration: underline;
+  font-size: 2.0em;
+  float: left;
+  padding-left: 170px;
+  padding-top: 70px;
+  position: absolute;
+}
+
+/*used for the contact us page text */
+p3{
+float: left;
+padding-left: 10%;
+padding-right: 10%;
+padding-bottom: 40px;
+font-size: 1.5em;
+letter-spacing: 2px;
+text-align: center;
+line-height: 40px;
+}
+
+/*used for the contact us page text */
+p4{
+float: left;
+padding-left: 40%;
+padding-right: 40%;
+padding-bottom: 40px;
+font-size: 1.25em;
+letter-spacing: 2px;
+text-align: center;
+line-height: 40px;
+}
+
+/*used for the contact us page images */
+.left {
+  float: left;
+  display: block;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+/* used for contact page bios*/
+p5{
+margin-top: 50px;
+letter-spacing: 2.5px;
+text-align: center;
+font-size: 1.5em;
+line-height: 40px;
+}
+
+/* used for collapsible in support */
+.collapsible {
+  background-color: rgba(119, 119, 119, 0);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: solid;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faqcontent {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+    font-family: 'Helvetica', serif;
+    width: 80%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid #767474;
+}
+
+input[type=submit] {
+    font-family: 'Helvetica', serif;
+    width: 80%;
+    background-color: #767474;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 10px;
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.18); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-gap: 10px;
+}
+
+.box {
+  display: inline-block;
+  padding: 20px;
+  font-size: 150%;
+  text-align: center;
+}
