@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-	<link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
   <title>Mark-It-Ed</title>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Mark-It-Ed</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  
+</head>
+<body style="background-color:#f4e7e1;">
+ 
   <div class="flex-container">
     <div><a href="index.html"><img src="image/Mark.png" width="125px"
         height="130px"></a></div>
@@ -23,23 +19,32 @@
     <div class="con-inside"><a href="contact.html">Contact Us</a></div>  
     <div class="con-inside"><a href="login.html">Login</a></div>
   </div>
-    </ul>
-  </nav>
 <hr />
+ 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+ 
+<label for="empName">Employee Name:</label><br>
+<input required type="text" id="empName" name="empName"><br>
+<label for="sales">Sales in $:</label><br>
+<input required type="text" id="sales" name="sales">
+<button type="submit"
+        class='input_submit'
+        style="margin-right: 15px;"
+        onClick="onSubmit()">Add New Employee
+</button>
 <div>
-  <canvas id="myChart"></canvas>
+  <canvas id="myChart" width="400" height="400"></canvas>
 </div>
 <!-- example chart for employee sales -->
-<script>
+<!-- <script>
 var myChart = document.getElementById('myChart').getContext('2d');
 var Sales = new Chart(myChart, {
   type: 'bar',
     data: {
-        labels: ['Employee 1', 'Employee 2', 'Employee 3', 'Employee 4', 'Employee 5', 'Employee 6'],
+        labels: {'empName'},
         datasets: [{
             label: 'Sales in $',
-            data: [12000, 19000, 3000, 5000, 2000, 3000],
+            data: 'sales',
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
@@ -67,9 +72,9 @@ var Sales = new Chart(myChart, {
         }
     }
 });
-</script>
+</script> -->
 </body>
-
+ 
 <footer>
   <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="image/BTT.png"width="100" height="100"></button>
   <div style="width:100%;height:350px;border:2px solid #000; background-color: #d4d2dd;">
@@ -78,7 +83,7 @@ var Sales = new Chart(myChart, {
   </h7>
   <span>
   <nav>
-  <div class="nav3"> 
+  <div class="nav3">
       <li><a href="resources.html">Resources</a></li>
       <li><a href="support.html">Support</a></li>
       <li><a href="company.html">Company</a></li>
@@ -93,16 +98,17 @@ var Sales = new Chart(myChart, {
   </span>
   <div1 style="margin-top: 0px;">
   <a href="signup.html">
-  Sign Up 
+  Sign Up
   </a>
   </div1>
     <div class="footer_img">
       <img src="image/Mark.png">
     </div>
-  </div> 
+  </div>
     <p2>LOYOLA UNIVERSITY CHICAGO 1032 W Sheridan Rd, Chicago, IL 60660
     </p2>
   </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lowdb/1.0.0/low.min.js"></script>
   <script src="script.js"></script>
+  <script src="loginscript.js"></script>
 </html>
