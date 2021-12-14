@@ -9,7 +9,7 @@
             "name": "Launch Chrome",
             "request": "launch",
             "type": "pwa-chrome",
-            "url": "http://localhost:8080",
+            "url": "${workspaceFolder}/index.html",
             "webRoot": "${workspaceFolder}"
         },
     
@@ -17,7 +17,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\gboyt\\OneDrive\\Desktop\\markited\\index.html"
+            "file": "C:\\Users\\sawst\\markited-3\\index.html"
         }
     ]
 }
