@@ -1,7 +1,9 @@
 var employeeArray = new Array();
 var salesArr = new Array();
 var token = 0;
- 
+//Known bug where chart will only render new changes upon resizing the screen.
+//Could not fix or research a solution to fix current implementation.
+//Attempt to call render and update method on myChart object with mixed results, none working.
 function onSubmit(){
     var empName = document.getElementById("empName").value;
     employeeArray.push(empName);
@@ -44,11 +46,10 @@ function onSubmit(){
                     }
                 }
             }
-        });
     
-}
- 
- 
+        });
+        //myChart.update();
+        //myChart.render();
+    }
 token++;
- 
 }

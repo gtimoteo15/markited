@@ -417,3 +417,31 @@ button.accordion:hover, button.accordion.is-open {
   overflow: hidden;
   transition: max-height 0.2s ease-in-out;
 }
+
+/*style for container surrounding charts forms*/
+.form_container {
+  text-align: center; 
+}
+
+/*style for labels of charts forms*/
+.form_container label{
+  font-size: 1.5em;
+}
+
+/*style for input fields of charts forms*/
+.form_container input{
+  width: 400px;
+  max-width: 400px;
+}
+
+/*style for button of charts forms*/
+.form_container button{
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  background-color: #767474;
+}
