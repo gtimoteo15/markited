@@ -1,24 +1,24 @@
 {
-    "name": "website",
-    "version": "1.0.0",
-    "description": "",
-    "main": "script.js",
-    "dependencies": {
-      "express": "^4.17.1"
-    },
-    "devDependencies": {},
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/sawstepj/COMP-324-Mark-It-Ed-Project.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/sawstepj/COMP-324-Mark-It-Ed-Project/issues"
-    },
-    "homepage": "https://github.com/sawstepj/COMP-324-Mark-It-Ed-Project#readme"
-  }
-  
+  "name": "website",
+  "version": "1.0.0",
+  "main": "script.js",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sawstepj/COMP-324-Mark-It-Ed-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sawstepj/COMP-324-Mark-It-Ed-Project/issues"
+  },
+  "homepage": "https://github.com/sawstepj/COMP-324-Mark-It-Ed-Project#readme",
+  "description": ""
+}
