@@ -19,19 +19,22 @@ function topFunction() {
 }
 
 //open collapsible button for faq
-var coll = document.getElementsByClassName("collapsible");
-var i;
+//accordion collapsible
+var accordions = document.getElementsByClassName("accordion");
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function () {
-    this.classList.toggle("active");
+for (var i = 0; i < accordions.length; i++) {
+  accordions[i].onclick = function() {
+    this.classList.toggle('is-open');
+
     var content = this.nextElementSibling;
     if (content.style.maxHeight) {
+      // accordion is currently open, so close it
       content.style.maxHeight = null;
     } else {
+      // accordion is currently closed, so open it
       content.style.maxHeight = content.scrollHeight + "px";
     }
-  });
+  }
 }
 
 //database
